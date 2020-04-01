@@ -1,6 +1,10 @@
 /*
 * pluconv.c 
 * (c) 2007 
+* The ROM in the IBM PC starts the boot process by performing a hardware
+* initialization and a verification of all external devices.  If all goes
+* well, it will then load from the boot drive the sector from track 0, head 0,
+* sector 1.  This sector is placed at physical address 07C00h.
 *
 *
 */
